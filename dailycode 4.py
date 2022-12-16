@@ -6,7 +6,10 @@ For example, calling format number (1000000) should return
 
 "1,000,000" '''
 
-
 def format_number(a):
-    print('{:,}'.format(a))    
-format_number(1001000)
+
+    print('{:,}'.format(a))
+
+input_value = int(input())    
+
+format_number(input_value)
